@@ -2,7 +2,7 @@
 
 
 ## Navigation
-Language: [Русский](README.md) | [English](README.en.md) | [Français](README.fr.md) | [中文](README.zh.md)
+Язык: [Русский](README.md) | [English](README.en.md) | [Français](README.fr.md) | [中文](README.zh.md)
 
 
 
