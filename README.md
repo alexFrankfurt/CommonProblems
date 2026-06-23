@@ -14,4 +14,4 @@
 Ctrl + F9
 
 🎫 Шаги решения 1:  
-Get-ChildItem -Path "C:\Users\User\ihsb_delphi", "C:\Delphcomp" -Include *.dcu, *.~*, *.ddp, *.dsk, *.identcache, *.local -Recurse | Remove-Item -Force
+Get-ChildItem -Path "C:\project_folder", "C:\Delphcomp" -Include *.dcu, *.~*, *.ddp, *.dsk, *.identcache, *.local -Recurse | Remove-Item -Force
