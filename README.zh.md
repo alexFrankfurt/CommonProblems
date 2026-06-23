@@ -2,7 +2,7 @@
 
 ## 导航
 
-语言：[俄语](README.md) | [英语](README.en.md) | [法语](README.fr.md) | [中文](README.zh.md)
+语言：[Русский](README.md) | [English](README.en.md) | [Français](README.fr.md) | [中文](README.zh.md)
 
 ### Delphi
 
