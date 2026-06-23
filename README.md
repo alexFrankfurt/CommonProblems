@@ -1,6 +1,8 @@
 # CommonProblems
 
 
+## Navigation
+Language: [Russian](README.md) | [English](README.en.md) | [Français](README.fr.md) | [中文](README.zh.md)
 
 
 
