@@ -31,14 +31,14 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is an
 sudo apt update
 
 🎫 Шаги решения 1:
-1. Find what's holding the lock
+1. Find what's holding the lock  
 sudo fuser -v /var/lib/dpkg/lock-frontend 2>/dev/null || echo "No process holding lock"
 
-2. Safely stop background updaters
+2. Safely stop background updaters  
 sudo systemctl stop unattended-upgrades
 sudo systemctl stop apt-daily.service apt-daily-upgrade.service
 
-3. Clear locks & fix interrupted state
+3. Clear locks & fix interrupted state  
 sudo rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/cache/apt/archives/lock
 sudo dpkg --configure -a
 
